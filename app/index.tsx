@@ -1,16 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { useRouter} from "expo-router";
+import { Link } from 'expo-router';
  
 export default function App() {
-  const router = useRouter();
  
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.button} onPress={() => {router.navigate("/lab4")}}>
-        <Text>Lab 4</Text>
-      </TouchableOpacity>
-      <StatusBar style="auto" />
+      <Link style={styles.button} href='/lab4'>Lab4</Link>
     </View>
   );
 }
@@ -23,9 +19,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   button: {
-    backgroundColor: 'blue',
-    padding: 10,
-    borderRadius: 5,
+    fontSize: 15,
+    color: 'white',
+    marginBottom: 20,
+    backgroundColor: 'black',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 15,
   }
 });
  
