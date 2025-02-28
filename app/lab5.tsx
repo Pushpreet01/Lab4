@@ -1,4 +1,3 @@
-// app/lab5.tsx
 import React, { useState } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 import CallAPI from '../components/callAPI';
