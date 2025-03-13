@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@react-native-picker/picker": "^2.11.0",
+    "@supabase/supabase-js": "^2.49.1",
     "@types/axios": "^0.9.36",
     "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
     "expo": "~52.0.33",
     "expo-router": "^4.0.17",
     "expo-status-bar": "~2.0.1",

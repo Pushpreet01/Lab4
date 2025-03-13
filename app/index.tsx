@@ -8,6 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Link style={styles.button} href='/lab4'>Lab4</Link>
       <Link style={styles.button} href='/lab5'>Lab5</Link>
+      <Link style={styles.button} href='/lab6'>Lab6</Link>
     </View>
   );
 }
